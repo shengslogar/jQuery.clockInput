@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jquery.clockInput test</title>
+        <style type="text/css">
+            body {
+                font: 14px monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>jquery.clockInput test</h1>
+
+        <input type="time" value="00:00" min="8:18" max="18:40">
+
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../jquery.clockinput.css">
+        <script type="text/javascript" src="../jquery.clockinput.js"></script>
+        <script type="text/javascript">
+            $("input[type=time]").clockInput();
+        </script>
+    </body>
+</html>
