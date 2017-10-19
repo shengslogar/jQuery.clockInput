@@ -54,6 +54,9 @@ Version History
 ---------------
 0.0.1
 
+-   Fixed min/max time bounds issue (when maxhour == minhour), added console error message on invalid bound params,
+    slightly tweaked styles (20171019)
+-   Minor tweaks, added webkit support for kicks (20170420)
 -   Initial version. Expect plump buggies (20170420)
 
 
