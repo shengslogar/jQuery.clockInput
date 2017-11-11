@@ -32,6 +32,9 @@ an `input type=time` input (rounds to nearest five minutes for all values):
 - `max` - Maximum time selectable (24hh:mm)
 - `value` - Currently selected time (24hh:mm)
 
+Tip: add `autocomplete="off"` to time inputs in Firefox to prevent input caching on page
+reload.
+
 Bugs
 ----
 To file a bug report, please send an email to
@@ -52,12 +55,17 @@ Potential contributions/future todos could look like:
 
 Version History
 ---------------
+0.0.2
+
+-   Fixed issue parsing input `value` attribute in Firefox.
+    Other minor fixes/improvements. (20171110)
+
 0.0.1
 
 -   Fixed min/max time bounds issue (when maxhour == minhour), added console error message on invalid bound params,
     slightly tweaked styles (20171019)
 -   Minor tweaks, added webkit support for kicks (20170420)
--   Initial version. Expect plump buggies (20170420)
+-   Initial version. Expect plump bugs (20170420)
 
 
 License
